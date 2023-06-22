@@ -77,29 +77,3 @@ function setupRoute() {
 
 app.listen(process.env.PORT || PORT);
 
-
-内容の説明は次の章で行います。
-
-テンプレートは3つあります。top.ejsは以下のようにします。これはトップページで、リンクがあるだけです。
-
-<!DOCTYPE HTML>
-<html>
-
-<head>
-  <meta charset="UTF-8" />
-  <title>Message App</title>
-</head>
-
-<body>
-  <h1>
-    データベースに文字列を格納するテスト
-  </h1>
-  <p>
-    <a href="./add">データを登録する</a>
-  </p>
-  <p>
-    <a href="./view">データを確認する</a>
-  </p>
-</body>
-
-</html>
